@@ -14,17 +14,17 @@ Concepts Covered:
 11.	Folder Structure
 Folder structure
 src/: Contains the main source code for the application.
-•	assets/: Contains static assets like images.
-•	components/: Contains React components used in the application.
-o	EditEmployee.tsx: Component for editing employee details.
-o	EditEmployee.scss: Styling for the EditEmployee component.
-o	EmployeeForm.tsx: Component for the employee form.
-o	EmployeeList.tsx: Component for displaying a list of employees.
-o	EmployeeList.scss: Styling for the EmployeeList component.
-•	apiClient.tsx: Contains API client configuration and functions.
-•	App.tsx: Main application component.
-•	main.tsx: Entry point for the React application.
-•	App.css, index.css: Global styles for the application.
+assets/: Contains static assets like images.
+components/: Contains React components used in the application.
+EditEmployee.tsx: Component for editing employee details.
+EditEmployee.scss: Styling for the EditEmployee component.
+EmployeeForm.tsx: Component for the employee form.
+EmployeeList.tsx: Component for displaying a list of employees.
+EmployeeList.scss: Styling for the EmployeeList component.
+apiClient.tsx: Contains API client configuration and functions.
+App.tsx: Main application component.
+main.tsx: Entry point for the React application.
+App.css, index.css: Global styles for the application.
 useState :
 The useState hook in React is a fundamental tool for managing state within functional components. In this project, the useState hook is used to keep track of the state of various components, allowing them to respond to user interactions and other events by updating the component's state and triggering a re-render.
 Managing Form Inputs: In components like EmployeeForm.tsx and EditEmployee.tsx, the useState hook is likely used to manage the state of form inputs. This allows the component to update the input fields as the user types and to handle form submission.
