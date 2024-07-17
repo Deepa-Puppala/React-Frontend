@@ -13,18 +13,18 @@ Concepts Covered:
 10.	Error route for invalid route paths
 11.	Folder Structure
 Folder structure
-src/: Contains the main source code for the application.
-assets/: Contains static assets like images.
-components/: Contains React components used in the application.
-EditEmployee.tsx: Component for editing employee details.
-EditEmployee.scss: Styling for the EditEmployee component.
-EmployeeForm.tsx: Component for the employee form.
-EmployeeList.tsx: Component for displaying a list of employees.
-EmployeeList.scss: Styling for the EmployeeList component.
-apiClient.tsx: Contains API client configuration and functions.
-App.tsx: Main application component.
-main.tsx: Entry point for the React application.
-App.css, index.css: Global styles for the application.
+1. src/: Contains the main source code for the application.
+2. assets/: Contains static assets like images.
+3. components/: Contains React components used in the application.
+4. EditEmployee.tsx: Component for editing employee details.
+5. EditEmployee.scss: Styling for the EditEmployee component.
+6. EmployeeForm.tsx: Component for the employee form.
+7. EmployeeList.tsx: Component for displaying a list of employees.
+8. EmployeeList.scss: Styling for the EmployeeList component.
+9. apiClient.tsx: Contains API client configuration and functions.
+10. App.tsx: Main application component.
+11. main.tsx: Entry point for the React application.
+12. App.css, index.css: Global styles for the application.
 useState :
 The useState hook in React is a fundamental tool for managing state within functional components. In this project, the useState hook is used to keep track of the state of various components, allowing them to respond to user interactions and other events by updating the component's state and triggering a re-render.
 Managing Form Inputs: In components like EmployeeForm.tsx and EditEmployee.tsx, the useState hook is likely used to manage the state of form inputs. This allows the component to update the input fields as the user types and to handle form submission.
