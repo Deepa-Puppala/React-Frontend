@@ -1,0 +1,66 @@
+button {
+  border: 1px solid grey;
+}
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+li {
+  list-style-type: none;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 382px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 0.5px solid black;
+  margin: 2px;
+  .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px;
+    width: 350px;
+    margin: 5px;
+  }
+  .btns {
+  }
+
+  .btn:hover {
+    background-color: lightseagreen;
+  }
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.formControl {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  width: 300px;
+}
+
+.form {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  margin-top: 5rem;
+}
